@@ -20,3 +20,17 @@ body {
     top: 50%;
     transform: translate(-50%, -50%)
 }
+
+.title-box {
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+
+.layui-form {
+    padding: 30px;
+}
+
+.link_reg,
+.link_login {
+    float: right;
+}

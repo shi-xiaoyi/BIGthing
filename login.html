@@ -15,6 +15,52 @@
     <!-- 登录注册 -->
     <div class="loginAndRegBox">
       <div class="title-box"></div>
+
+      <!-- 登录区域 -->
+      <div class="login">
+        <!-- 登录表单区域 -->
+        <form class="layui-form" action="">
+          <div class="layui-form-item">
+            <input
+              type="text"
+              name="usename"
+              required
+              lay-verify="required"
+              placeholder="请输入用户名"
+              autocomplete="off"
+              class="layui-input"
+            />
+          </div>
+          <div class="layui-form-item">
+            <input
+              type="password"
+              name="psd"
+              required
+              lay-verify="required"
+              placeholder="请输入密码"
+              autocomplete="off"
+              class="layui-input"
+            />
+          </div>
+          <div class="layui-form-item">
+            <button
+              class="layui-btn layui-btn-fluid"
+              lay-submit
+              lay-filter="formDemo"
+            >
+              立即提交
+            </button>
+          </div>
+          <a href="javascript:;" class="link_reg">去注册</a>
+        </form>
+      </div>
+      <!-- 注册区域 -->
+      <div class="reg" style="display: none;">
+        <!-- 注册表单 -->
+        <a href="javascript:;" class="link_login">去登录</a>
+      </div>
     </div>
   </body>
+  <script src="./assets/lib/jquery.js"></script>
+  <script src="./assets/js/login.js"></script>
 </html>
