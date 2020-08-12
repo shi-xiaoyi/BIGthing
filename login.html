@@ -19,7 +19,7 @@
       <!-- 登录区域 -->
       <div class="login">
         <!-- 登录表单区域 -->
-        <form class="layui-form">
+        <form class="layui-form" id="form_login">
           <div class="layui-form-item">
             <i class="layui-icon layui-icon-username"></i>
             <input
@@ -30,11 +30,13 @@
               placeholder="请输入用户名"
               autocomplete="off"
               class="layui-input"
+              id="use"
             />
           </div>
           <div class="layui-form-item">
             <i class="layui-icon layui-icon-password"></i>
             <input
+              id="pass"
               type="text"
               name="psd"
               lay-verify="required|pwd"
@@ -112,5 +114,6 @@
 
   <script src="./assets/lib/jquery.js"></script>
   <script src="./assets/lib/layui/layui.all.js"></script>
+  <script src="./assets/js/baseAPI.js"></script>
   <script src="./assets/js/login.js"></script>
 </html>
