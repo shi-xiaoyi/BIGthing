@@ -2,7 +2,7 @@
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-color: green;
+    background-color: #009688;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
@@ -10,7 +10,7 @@
     font-size: 20px;
     color: white;
     position: relative;
-    top: 5px;
+    top: 3px;
 }
 
 .iconfont {
@@ -37,8 +37,8 @@ iframe {
 }
 
 .userinfo {
-    height: 60px;
-    line-height: 60px;
+    height: 100px;
+    line-height: 100px;
     text-align: center;
     font-size: 12px;
     user-select: none;
@@ -66,4 +66,8 @@ iframe {
     position: relative;
     top: 4px;
     margin-right: 10px;
+}
+
+a {
+    transition: none !important;
 }
