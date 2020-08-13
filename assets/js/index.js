@@ -66,7 +66,7 @@ function getimage(data) {
         $('.a-text').html(first_name).show();
     } else {
         $('.layui-nav-img')
-            .attr('src', user.user_pic)
+            .attr('src', data.user_pic)
             .show()
         $('.text-avatar').hide()
         $('.a-text').hide()
